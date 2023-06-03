@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CyberSafeGuard</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href={{ url_for('static', filename='/css/bootstrap.min.css') }} type="text/css">
+    <link rel="stylesheet" href={{ url_for('static', filename='/css/client_side.css') }}  type="text/css">
+    
+    <!-- JavaScript -->
+    <script src={{ url_for('static', filename='/js/jquery_3.6.0.min.js') }} ></script>
+    <script src={{ url_for('static', filename='/js/bootstrap_3.4.1.min.js') }} ></script>
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.png') }}" />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body id="halamanku" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Logo -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#halamanku">CyberSafe<span>Guard</span>.</a>
+        </div>
+
+        <!-- Daftar Halaman -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#detection">Phishing Detection</a></li>
+            <li><a href="/chatbot">SafeBot</a></li>
+            <li><a href="#team">Team</a></li>
+            <!-- <li><a href="#contact">Contact</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Landing Page -->
+    <div id="home" class="container-fluid" style="
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background: url('{{ url_for('static', filename='images/hero.png') }}');
+    ">
+      <br>
+      <br>
+      <br>
+      <br><br><br>
+      <div class="row">
+          <div>
+            <!-- Welcome -->
+            <h2 style="color: #fff; font-size: 70px;">Welcome to</h2>
+            <h3 style="color: #fff; font-size: 30px;"><b>CyberSafeGuard</b></h3><br>
+            <p style="text-align: justify;text-justify: inter-word; color: #fff; font-size: 20px;">
+              Safeguarding Your Digital Frontier <br> Protecting You in the Digital Realm
+            </p>
+            <br>
+    
+            <!-- Tombol show -->
+            <nav id="navgo" class="navbar-show-more" style="z-index: 0;">
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="btn btn-default btn-lg" href="#about" style="background-color:#4e6e81; color:#fff; border: none; outline:none">Show More</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+    </div>
+
+    <!-- Bagian Halaman (Informasi) -->
+    <div id="about" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <br>
+          <!-- Gambar Deskripsi Aplikasi -->
+          <img src={{ url_for('static', filename='/images/phising.png') }} width="300" height="300" ></img>
+        </div>
+
+        <div class="col-sm-6">
+          <!-- Deskripsi Aplikasi -->
+                  <h2>CyberSafeGuard</h2><br>
+          <h4>Phising Detection</h4>
+          <p style="text-align: justify;text-justify: inter-word;">
+            Aplikasi ini dibuat untuk menentukan membantu pengguna internet mendeteksi URL yang terindikasi phishing.
+            Pengguna hanya cukup menginputkan url yang dicurigai untuk dapat mengetahui klasifikasi phishing dan tidak phishing.
+            Fitur ini diharapkan dapat membantu mengurangi resiko <i>cybercrime</i> khususnya kejahatan phishing.
+          </p>
+          <br>
+
+          <!-- Tombol Mulai -->
+          <nav id="navgo" class="navbar" style="background-color:#ffffff;z-index: 0;">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="btn btn-default btn-lg" href="#detection" style="background-color:#4e6e81; color: #fff !important;">Go</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div><br><br>
+    
+      <div class="row">
+        <div class="col-sm-6 ">
+          <br>
+          <!-- Gambar Deskripsi Aplikasi -->
+          <img src={{ url_for('static', filename='/images/chatbot.png') }} width="300" height="300"></img>
+        </div>
+
+        <div class="col-sm-6">
+          <!-- Deskripsi Aplikasi -->
+          <h4>SafeBot</h4>
+          <p style="text-align: justify;text-justify: inter-word;">
+            Aplikasi ini dibuat untuk menentukan membantu pengguna internet mendapatkan pengetahuan mengenai <i>cyber security</i> dan tips and tricks untuk menghindari <i>cybercrime</i>.
+            Pengguna hanya cukup menginputkan pertanyaan kemudian SafeBot akan memberikan jawaban mengenai pertanyaan pengguna.
+            Fitur ini diharapkan dapat membantu mengurangi resiko <i>cybercrime</i> dan meningkatkan kesadaran pengguna internet terhadap kejahatan dunia maya.
+          </p><br>
+
+          <!-- Tombol Mulai -->
+          <nav id="navgo" class="navbar" style="background-color:#ffffff;z-index: 0;">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="btn btn-default btn-lg" href="/chatbot" style="background-color:#4e6e81; color: #fff !important;">Go</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div><br>
+    </div>
+
+    <!-- Bagian Halaman (Aplikasi phishing detection) -->
+    <div id="detection" data-bs-spy="scroll" data-bs-target="#navgo" data-bs-offset="0" class="scrollspy-example" class="container-fluid" tabindex="0">
+        <br>
+        <br>
+        <div class="row">
+            <h2 class="centered">Phishing Detection</h2>
+            <div class="col-sm-6">
+                </br>
+                <img style="margin-left: 100px;" src={{ url_for('static', filename='/images/image1.png') }} width="700" height="500"></img>
+            </div>
+            <div class="col-sm-6">
+              <br><br><br><br><br><br><br>
+              <!-- Input URL dari Pengguna -->
+              <div class="col-lg-6" style="margin-left: 50px;">
+                  <div class="input-group">
+                      <span class="input-group-addon" id="basic-addon3">Input URL</span>
+                      <input name="data" type="text" class="form-control" id="inputVal_link" onInput="$('#inputVal_link').html($(this).val())" placeholder="example.com/users/" aria-label="https://example.com/users/" aria-describedby="basic-addon3">
+                  </div>
+                  <div id="hasil_prediksi" style="background-color: #ececec; color: #1f1e1e; margin-top: 50px; padding: 20px; border-radius: 10px; height: 250px;">                   
+                   
+                  </div>
+                </div>
+              <div>
+                <button type="submit" id="prediksi_submit" class="btn btn-outline-secondary" style="background-color:#4e6e81; color: #fff">Predict</button>
+              </div>
+              <!-- Bagian Halaman untuk Hasil Prediksi -->
+              
+          </div>          
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <!-- Bagian Halaman (Anggota Kelompok) -->
+    <div id="team" class="container-fluid text-center">
+        <br>
+        <h2>Anggota Kelompok</h2>
+        <h4>Insightful Ideators</h4>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-6">
+                <img src={{ url_for('static', filename='/images/rezak.jpg') }}  width="200" height="200">
+                <h4>ABDUL REZAK</h4>
+                <p>Universitas Muhammadiyah Jakarta</p>
+            </div>
+            <div class="col-sm-6">
+                <img src={{ url_for('static', filename='/images/Fikri.jpg') }}  width="200" height="200">
+                <h4>HAFIDZ NAWWAR FIKRI</h4>
+                <p>Universitas Singaperbangsa Karawang</p>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="row slideanim">
+            <div class="col-sm-6">
+                <img src={{ url_for('static', filename='/images/hilya.jpg') }}  width="200" height="200">
+                <h4>HILYA ANBIYANI FITRI MUHYIDIN</h4>
+                <p>Universitas Pendidikan Indonesia</p>
+            </div>
+            <div class="col-sm-6">
+                <img src={{ url_for('static', filename='/images/rafi.jpg') }}  width="200" height="200">
+                <h4>MUHAMMAD MIFTAHUR RAFI</h4>
+                <p>Universitas Muhammadiyah Jakarta</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center">
+        <a href="#halamanku" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Insightful Ideators<br> Insight-1</p>
+        <span class="copyright">© 2023 <a href="index.html" rel="rev-logo">cybersafeguard</a> All Rights Reserved</span> </div>
+    </footer>
+
+    <!-- JavaScript untuk Animasi Scroll dan Prediksi Model -->
+    <script  src={{ url_for('static', filename='/js/client_side.js') }}></script>
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

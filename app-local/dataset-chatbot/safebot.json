@@ -1,0 +1,601 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+            "hallo",
+            "hai",
+            "halo",
+            "hei",
+            "hi",
+            "hy",
+            "pagi",
+            "morning",
+            "siang",
+            "afternoon",
+            "sore",
+            "malam",
+            "bro",
+            "sis",
+            "kawan"
+            ],
+            "responses": [
+            "Hai! Safebot di sini. Mau tau informasi tentang apa nih?",
+            "Halo, ada yang bisa saya bantu? Silahkan tanya pada Saya",
+            "Halo, selamat datang",
+            "Hai, salam kenal"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+            "Dah",
+            "Dadah",
+            "Bye",
+            "Byee",
+            "Good bye",
+            "Selamat tinggal",
+            "Sampai jumpa",
+            "Bai",
+            "See you",
+            "Ok bye"
+            ],
+            "responses": [
+            "Bye!",
+            "Dadahh!",
+            "Good bye!",
+            "Dahh, semoga harimu menyenangkan yaa!",
+            "Sampai jumpa lagi!",
+            "See u! Senang bisa membantu",
+            "Sampai jumpa lagi yaa",
+            "Semoga harimu menyenangkan!"
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+            "Thanks",
+            "Thank you",
+            "Terima kasih",
+            "Makasih",
+            "Terima kasih banyak"
+            ],
+            "responses": [
+            "Dengan senang hati :)",
+            "Sama-sama yaa"
+            ]
+        },
+        {
+            "tag": "Safebot",
+            "patterns": [
+            "Apa itu Safebot?",
+            "Siapa Safebot?"
+            ],
+            "responses": [
+            "Safebot adalah aplikasi chatbot informasi tentang beraktivitas di dunia maya dengan aman serta mengenal cybercrime",
+            "Safebot itu adalah teman informasi kamu dalam mengenal cybercrime dan cara mencegahnya"
+            ]
+        },
+        {
+            "tag": "pencipta",
+            "patterns": [
+            "Siapa pembuatmu?",
+            "Siapa sih, yang buat kamu?",
+            "Kamu bikinan siapa?",
+            "Lo buatan siapa?",
+            "Siapa penciptamu?"
+            ],
+            "responses": [
+            "Safebot diciptakan oleh mahasiswa dan mahasiswi dari peserta program kampus merdeka di Orbit Future Academy",
+            "Pembuat Safebot dari kalangan mahasiswa dan mahasiswi lho!",
+            "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+            ]
+        },
+        {
+            "tag": "cybercrime",
+            "patterns": [
+            "Cybercrime itu apa?",
+            "Kejahatan siber itu apa sih",
+            "Emang cybercrime itu apa sih",
+            "Apa itu cybercrime?",
+            "Kejahatan siber emang apa?",
+            "Kejahatan dunia maya emang apa?",
+            "Apa itu kejahatan dunia maya?",
+            "Cybercrime itu apa sih?",
+            "Kejahatan siber itu apa sih?"
+            ],
+            "responses": [
+            "Cybercrime (kejahatan dunia maya) adalah kejahatan yang dilakukan di dunia maya (internet) dan mengakibatkan kerugian atau dampak negatif pada korban. Kejahatan dunia maya dapat dilakukan oleh individu, kelompok atau organisasi dan dapat melibatkan pencurian identitas, penipuan, peretasan, serangan malware, pencurian data, dan aktivitas ilegal lainnya yang dilakukan melalui komputer atau jaringan internet.",
+            "Cybercrime (kejahatan dunia maya) merupakan suatu tindak kejahatan yang dilakukan menggunakan komputer atau alat komunikasi lainnya untuk menyebabkan ketakutan dan kecemasan kepada orang lain atau merusak, merugikan, dan menghancurkan properti."
+            ]
+        },
+        {
+            "tag": "identitas_palsu",
+            "patterns": [
+            "Identitas palsu itu apa?",
+            "Identitas palsu itu apa sih",
+            "Emang identitas palsu itu apa sih",
+            "Identitas palsu emang apa?",
+            "Identitas palsu emang apa sih?",
+            "Apa itu identitas palsu?"
+            ],
+            "responses": [
+            "Identitas palsu adalah informasi palsu yang digunakan untuk menyembunyikan identitas sebenarnya. Anda dapat menghindari identitas palsu dengan tidak membagikan informasi pribadi secara publik, memverifikasi sumber informasi sebelum mempercayainya, dan menggunakan perangkat lunak anti-phishing dan anti-malware."
+            ]
+        },
+        {
+            "tag": "data_pribadi",
+            "patterns": [
+            "Apa saja yang termasuk data pribadi yang bersifat sensitif?",
+            "Apa saja sih yang termasuk data pribadi yang bersifat sensitif?",
+            "Data pribadi yang bersifat sensitif itu apa saja?",
+            "Tolong sebutkan apa saja yang termasuk data pribadi yang bersifat sensitif",
+            "Data pribadi yang bersifat sensitif itu apa saja sih?"
+            ],
+            "responses": [
+            "Data pribadi yang bersifat sensitif umumnya mencakup informasi yang dapat mengidentifikasi secara pribadi seseorang atau dapat digunakan untuk memperoleh akses ke informasi pribadi tersebut. Beberapa contoh data pribadi yang bersifat sensitif meliputi: nama lengkap, nomor identitas (nomor KTP atau paspor), tanggal lahir, tempat lahir, alamat tempat tinggal, nomor telepon, alamat email, alamat rumah, alamat kantor, nomor rekening bank, nomor kartu kredit/debit, username, password, informasi transaksi keuangan, nomor jaminan sosial, riwayat medis, kondisi kesehatan, resep obat, nomor pegawai, riwayat pekerjaan, gaji, riwayat pendidikan, transkrip akademik, agama, dan lain-lain."
+            ]
+        },
+        {
+            "tag": "contoh_cybercrime",
+            "patterns": [
+            "Apa aja sih bentuk dari cybercrime?",
+            "Apa aja sih bentuk dari kejahatan dunia maya?",
+            "Apa aja sih bentuk dari kejahatan siber?",
+            "Apa aja sih contoh dari cybercrime?",
+            "Apa aja sih contoh dari kejahatan dunia maya?",
+            "Apa aja sih contoh dari kejahatan siber?",
+            "Cybercrime itu seperti apa?",
+            "Kejahatan siber itu seperti apa?",
+            "Kejahatan dunia maya itu seperti apa?","Apa aja sih jenis dari cybercrime?",
+            "Tolong sebutkan jenis dari cybercrime",
+            "Apa aja sih jenis dari kejahatan dunia maya?",
+            "Tolong sebutkan jenis dari kejahatan dunia maya",
+            "Apa aja sih jenis dari kejahatan siber?",
+            "Tolong sebutkan jenis dari kejahatan siber"
+            ],
+            "responses": [
+            "Perkembangan teknologi dan kejahatan siber terus berubah, sehingga jenis-jenis baru dari cybercrime dapat muncul seiring waktu. Berikut adalah beberapa bentuk umum dari cybercrime atau kejahatan dunia maya:\n\n(1) Pencurian Identitas.\n\n(2) Serangan Malware.\n\n(3) Serangan Phishing.\n\n(4) Serangan DDoS (Distributed Denial-of-Service).\n\n(5) Pencurian Data.\n\n(6) Kejahatan Keuangan Online.\n\n(7) Peretasan Jaringan.\n\n(8) Serangan Ransomware.\n\n(9) Kejahatan Seksual Online.\n\n(10) Aktivitas Teroris Online.\n\n(11) Penipuan Online.\n\n(12) Serangan Phishing.\n\n(13) Penyebaran Konten Ilegal.\n\n(14) Kejahatan Siber terhadap Anak.\n\n(15) Pelanggaran Privasi.\n\n(16) Cyberbullying.\n\n(17)  Kejahatan Seksual Online.",
+            "Perkembangan teknologi dan kejahatan siber terus berubah, sehingga jenis-jenis baru dari cybercrime dapat muncul seiring waktu. Berikut adalah beberapa bentuk umum dari kejahatan siber: \n\n(1) Pencurian Identitas.\n\n(2) Serangan Malware.\n\n(3) Serangan Phishing.\n\n(4) Serangan DDoS (Distributed Denial-of-Service).\n\n(5) Pencurian Data.\n\n(6) Kejahatan Keuangan Online.\n\n(7) Peretasan Jaringan.\n\n(8) Serangan Ransomware.\n\n(9) Kejahatan Seksual Online.\n\n(10) Aktivitas Teroris Online.\n\n(11) Penipuan Online.\n\n(12) Serangan Phishing.\n\n(13) Penyebaran Konten Ilegal.\n\n(14) Kejahatan Siber terhadap Anak.\n\n(15) Pelanggaran Privasi.\n\n(16) Cyberbullying.\n\n(17)  Kejahatan Seksual Online.",
+            "Berikut adalah beberapa jenis umum dari cybercrime atau kejahatan dunia maya:\n\n(1) Pencurian Identitas.\n\n(2) Serangan Malware.\n\n(3) Serangan Phishing.\n\n(4) Serangan DDoS (Distributed Denial-of-Service).\n\n(5) Pencurian Data.\n\n(6) Kejahatan Keuangan Online.\n\n(7) Peretasan Jaringan.\n\n(8) Serangan Ransomware.\n\n(9) Kejahatan Seksual Online.\n\n(10) Aktivitas Teroris Online.\n\n(11) Penipuan Online.\n\n(12) Serangan Phishing.\n\n(13) Penyebaran Konten Ilegal.\n\n(14) Kejahatan Siber terhadap Anak.\n\n(15) Pelanggaran Privasi.\n\n(16) Cyberbullying.\n\n(17)  Kejahatan Seksual Online.",
+            "Berikut adalah beberapa jenis umum dari kejahatan siber:\n\n(1) Pencurian Identitas.\n\n(2) Serangan Malware.\n\n(3) Serangan Phishing.\n\n(4) Serangan DDoS (Distributed Denial-of-Service).\n\n(5) Pencurian Data.\n\n(6) Kejahatan Keuangan Online.\n\n(7) Peretasan Jaringan.\n\n(8) Serangan Ransomware.\n\n(9) Kejahatan Seksual Online.\n\n(10) Aktivitas Teroris Online.\n\n(11) Penipuan Online.\n\n(12) Serangan Phishing.\n\n(13) Penyebaran Konten Ilegal.\n\n(14) Kejahatan Siber terhadap Anak.\n\n(15) Pelanggaran Privasi.\n\n(16) Cyberbullying.\n\n(17)  Kejahatan Seksual Online.",
+            "Berikut adalah beberapa contoh umum dari kejahatan siber:\n\n(1) Pencurian Identitas.\n\n(2) Serangan Malware.\n\n(3) Serangan Phishing.\n\n(4) Serangan DDoS (Distributed Denial-of-Service).\n\n(5) Pencurian Data.\n\n(6) Kejahatan Keuangan Online.\n\n(7) Peretasan Jaringan.\n\n(8) Serangan Ransomware.\n\n(9) Kejahatan Seksual Online.\n\n(10) Aktivitas Teroris Online.\n\n(11) Penipuan Online.\n\n(12) Serangan Phishing.\n\n(13) Penyebaran Konten Ilegal.\n\n(14) Kejahatan Siber terhadap Anak.\n\n(15) Pelanggaran Privasi.\n\n(16) Cyberbullying.\n\n(17)  Kejahatan Seksual Online.",
+            "Berikut adalah beberapa contoh umum dari cybercrime atau kejahatan dunia maya:\n\n(1) Pencurian Identitas.\n\n(2) Serangan Malware.\n\n(3) Serangan Phishing.\n\n(4) Serangan DDoS (Distributed Denial-of-Service).\n\n(5) Pencurian Data.\n\n(6) Kejahatan Keuangan Online.\n\n(7) Peretasan Jaringan.\n\n(8) Serangan Ransomware.\n\n(9) Kejahatan Seksual Online.\n\n(10) Aktivitas Teroris Online.\n\n(11) Penipuan Online.\n\n(12) Serangan Phishing.\n\n(13) Penyebaran Konten Ilegal.\n\n(14) Kejahatan Siber terhadap Anak.\n\n(15) Pelanggaran Privasi.\n\n(16) Cyberbullying.\n\n(17)  Kejahatan Seksual Online."
+            ]
+        },
+        {
+            "tag": "penipuan_online",
+            "patterns": [
+            "Penipuan online itu apa?",
+            "Penipuan online itu apa sih",
+            "Emang penipuan online itu apa sih",
+            "Penipuan online emang apa?",
+            "Penipuan online emang apa sih?",
+            "Apa itu penipuan online?"
+            ],
+            "responses": [
+            "Penipuan Online merupakan kejahatan seperti penipuan lelang, penjualan produk palsu, penipuan cinta (romance scam), atau penipuan investasi yang dilakukan melalui platform online."
+            ]
+        },
+        {
+            "tag": "online_scam_prevented",
+            "patterns": [
+              "Bagaimana cara menghindari penipuan online?",
+              "Bagaimana mencegah penipuan online?",
+              "Bagaimana terhindar dari penipuan online?"
+            ],
+            "responses": [
+              "Untuk menghindari penipuan online, berikut adalah beberapa langkah yang dapat Anda ikuti:\n\n1. Berhati-hatilah terhadap penawaran yang terlalu bagus untuk menjadi kenyataan. Jika sesuatu terdengar terlalu bagus untuk dipercaya, mungkin itu bukanlah kenyataan.\n\n2. Selalu periksa reputasi dan keandalan penjual sebelum melakukan pembelian online. Baca ulasan dari pelanggan sebelumnya untuk mendapatkan informasi yang lebih baik.\n\n3. Jangan pernah berikan informasi pribadi atau keuangan Anda kepada seseorang yang tidak Anda kenal atau melalui situs web yang tidak terpercaya.\n\n4. Hati-hati terhadap email atau pesan yang mencoba meminta informasi pribadi atau mengarahkan Anda ke situs web yang mencurigakan. Jangan klik tautan yang mencurigakan atau unduh lampiran dari sumber yang tidak terpercaya.\n\n5. Gunakan metode pembayaran yang aman dan dapat dipercaya saat melakukan transaksi online. Hindari menggunakan transfer bank langsung kepada pihak yang tidak Anda kenal.\n\n6. Selalu periksa tagihan kartu kredit dan transaksi keuangan Anda secara teratur untuk mendeteksi aktivitas yang mencurigakan.\n\n7. Gunakan kecerdasan dan kewaspadaan saat berinteraksi dengan orang asing atau penjual online. Jangan terburu-buru dalam mengambil keputusan dan pastikan Anda merasa nyaman sebelum melakukan transaksi."
+            ]
+        },
+        {
+            "tag": "pencurian_identitas",
+            "patterns": [
+            "Pencurian identitas itu apa?",
+            "Pencurian identitas itu apa sih",
+            "Emang pencurian identitas itu apa sih?",
+            "Pencurian identitas emang apa?",
+            "Pencurian identitas emang apa sih?",
+            "Apa itu pencurian identitas?"
+            ],
+            "responses": [
+            "Pencurian identitas merupakan kejahatan seperti mencuri data pribadi seseorang yang bersifat sensitif, seperti nama, alamat, nomor identitas, atau informasi keuangan, untuk tujuan penipuan atau keuntungan finansial secara pribadi."
+            ]
+        },
+        {
+            "tag": "identity_theft_prevented",
+            "patterns": [
+              "Bagaimana cara melindungi diri dari pencurian identitas?",
+              "Bagaimana terhindar dari pencurian identitas?",
+              "Bagaimana mencegah pencurian identitas?"
+            ],
+            "responses": [
+              "Berikut adalah beberapa langkah yang dapat Anda lakukan untuk menghindari pencurian identitas:\n\n1. Jaga kerahasiaan informasi pribadi Anda. Hindari memberikan informasi pribadi seperti nomor kartu kredit, nomor rekening bank, atau nomor asuransi sosial secara sembarangan.\n\n2. Gunakan kata sandi yang kuat dan unik untuk akun online Anda. Jangan gunakan kata sandi yang mudah ditebak atau informasi pribadi yang mudah ditemukan.\n\n3. Pastikan Anda mengakses situs web yang aman dengan mengonfirmasi adanya protokol HTTPS dan ikon gembok pada alamat URL.\n\n4. Hati-hati terhadap panggilan telepon, pesan teks, atau email yang mencurigakan yang meminta informasi pribadi Anda. Jangan memberikan informasi sensitif melalui komunikasi yang tidak terverifikasi.\n\n5. Periksa dan pantau secara rutin riwayat kredit dan laporan keuangan Anda untuk mendeteksi aktivitas yang mencurigakan.\n\n6. Selalu jaga keamanan perangkat Anda dengan memperbarui perangkat lunak, menjaga firewall dan antivirus yang terkini, dan menghindari mengunduh dari sumber yang tidak terpercaya.\n\n7. Pantau aktivitas akun online Anda dengan cermat dan laporkan segera jika ada kejanggalan atau aktivitas yang mencurigakan."
+            ]
+        },
+        {
+            "tag": "cyberbullying",
+            "patterns": [
+            "Cyberbullying itu apa?",
+            "Cyberbullying itu apa sih",
+            "Emang Cyberbullying itu apa sih?",
+            "Cyberbullying emang apa?",
+            "Cyberbullying emang apa sih?",
+            "Apa itu cyberbullying?"
+            ],
+            "responses": [
+            "Cyberbullying merupakan kejahatan yang menggunakan teknologi dan internet untuk mengintimidasi, melecehkan, atau menyebabkan kerugian emosional pada individu melalui ancaman, penyebaran konten negatif, atau penghinaan online."
+            ]
+        },
+        {
+            "tag": "cyberbullying_prevention",
+            "patterns": [
+              "Bagaimana cara mengatasi cyberbullying?",
+              "Bagaimana melindungi diri dari cyberbullying?",
+              "Apa yang bisa dilakukan untuk menghentikan cyberbullying?"
+            ],
+            "responses": [
+              "Berikut adalah beberapa langkah yang dapat Anda lakukan untuk mengatasi cyberbullying:\n\n1. Jangan merespons atau membalas pesan atau komentar yang mengandung konten yang merendahkan, menghina, atau menyerang Anda. Hindari terlibat dalam konflik online yang bisa memperburuk situasi.\n\n2. Simpan bukti dari serangan cyberbullying, seperti tangkapan layar pesan, komentar, atau konten yang merugikan. Bukti tersebut dapat membantu Anda dalam melaporkan kejadian ke pihak berwenang atau platform online.\n\n3. Blokir atau batasi akses pengguna yang melakukan cyberbullying terhadap Anda. Setel pengaturan privasi Anda sehingga hanya orang-orang yang Anda percaya yang dapat melihat dan berinteraksi dengan konten Anda.\n\n4. Laporkan kejadian cyberbullying ke pihak berwenang atau platform online yang relevan. Sampaikan informasi yang jelas dan lengkap tentang kejadian tersebut untuk membantu dalam investigasi dan penanganan kasus.\n\n5. Jangan ragu untuk mencari dukungan dari keluarga, teman, atau profesional yang dapat membantu Anda mengatasi dampak emosional dari cyberbullying. Jangan merasa sendirian dalam menghadapi situasi ini.\n\n6. Edukasi diri sendiri tentang hak-hak dan tanggung jawab digital. Pahami bahwa Anda memiliki hak untuk merasa aman dan dihormati dalam lingkungan online.\n\n7. Ingatlah bahwa tindakan cyberbullying adalah melanggar hukum di banyak yurisdiksi. Jika perlu, konsultasikan dengan penasihat hukum atau lembaga yang berkompeten untuk mendapatkan informasi dan bantuan yang lebih lanjut."
+            ]
+        },
+        {
+            "tag": "pelanggaran_privacy",
+            "patterns": [
+            "Pelanggaran privasi itu apa?",
+            "Pelanggaran privasi itu apa sih",
+            "Emang Pelanggaran privasi itu apa sih?",
+            "Pelanggaran privasi emang apa?",
+            "Pelanggaran privasi emang apa sih?",
+            "Apa itu Pelanggaran privasi?"
+            ],
+            "responses": [
+            "Pelanggaran privasi merupakan kejahatan yang Melibatkan pengumpulan, penggunaan, atau penyebaran data pribadi seseorang tanpa izin, seperti pelacakan online yang tidak sah atau pelanggaran privasi di media sosial."
+            ]
+        },
+        {
+            "tag": "privacy_breach_prevented",
+            "patterns": [
+              "Bagaimana cara melindungi privasi saya?",
+              "Bagaimana terhindar dari pelanggaran privasi?",
+              "Bagaimana mencegah pelanggaran privasi?"
+            ],
+            "responses": [
+              "Berikut adalah beberapa langkah yang dapat Anda lakukan untuk menghindari pelanggaran privasi:\n\n1. Jaga kerahasiaan informasi pribadi Anda. Hindari memberikan informasi pribadi secara sembarangan atau tanpa alasan yang jelas.\n\n2. Periksa kebijakan privasi sebelum menggunakan layanan atau situs web. Pastikan Anda memahami bagaimana data Anda akan digunakan dan dilindungi.\n\n3. Gunakan pengaturan privasi pada perangkat dan akun online Anda. Sesuaikan siapa yang dapat melihat dan mengakses informasi pribadi Anda.\n\n4. Hindari berbagi informasi pribadi secara publik di media sosial atau platform online lainnya. Periksa dan sesuaikan pengaturan privasi Anda secara teratur.\n\n5. Hati-hati dalam memberikan izin akses kepada aplikasi atau layanan. Pastikan Anda memahami konsekuensi dari izin yang diberikan.\n\n6. Selalu perbarui perangkat lunak dan aplikasi Anda ke versi terbaru. Pembaruan sering kali memperbaiki kerentanan keamanan yang dapat dieksploitasi.\n\n7. Gunakan solusi keamanan seperti firewall, antivirus, dan anti-malware yang terpercaya untuk melindungi perangkat Anda dari ancaman keamanan.\n\n8. Jaga kehati-hatian saat menggunakan jaringan Wi-Fi publik. Hindari mengakses informasi sensitif atau melakukan transaksi keuangan di jaringan yang tidak aman."
+            ]
+        },
+        {
+            "tag": "konten_ilegal",
+            "patterns": [
+            "Penyebaran konten ilegal itu apa?",
+            "Penyebaran konten ilegal itu apa sih",
+            "Emang penyebaran konten ilegal itu apa sih?",
+            "Penyebaran konten ilegal emang apa?",
+            "Penyebaran konten ilegal emang apa sih?",
+            "Apa itu penyebaran konten ilegal?"
+            ],
+            "responses": [
+            "Penyebaran konten ilegal merupakan kejahatan seperti penyebaran materi pornografi anak, konten terorisme, atau materi yang melanggar hak cipta melalui internet."
+            ]
+        },
+        {
+            "tag": "illegal_content_prevented",
+            "patterns": [
+              "Bagaimana cara mencegah penyebaran konten ilegal?",
+              "Bagaimana melindungi diri dari penyebaran konten ilegal?",
+              "Bagaimana terhindar dari penyebaran konten ilegal?"
+            ],
+            "responses": [
+              "Untuk mencegah penyebaran konten ilegal, berikut adalah beberapa langkah yang dapat Anda lakukan:\n\n1. Hindari mengunggah, membagikan, atau menyebarkan konten yang melanggar hukum atau melanggar privasi orang lain.\n\n2. Pastikan Anda memahami dan mengikuti kebijakan dan pedoman platform online yang Anda gunakan. Jangan melanggar aturan penggunaan dan kebijakan konten yang ditetapkan.\n\n3. Jika Anda menemukan konten ilegal, laporkan hal tersebut kepada pihak berwenang atau penyedia platform sehingga tindakan dapat diambil.\n\n4. Berhati-hatilah dalam berbagi konten yang tidak Anda miliki hak ciptanya. Pastikan Anda memiliki izin atau lisensi yang sah sebelum menggunakan atau menyebarkan konten tersebut.\n\n5. Jaga kecerdasan dan etika dalam berbagi konten online. Pertimbangkan implikasi hukum dan etika sebelum membagikan konten kepada orang lain.\n\n6. Gunakan sumber informasi yang terpercaya dan diverifikasi untuk menghindari menyebarkan konten yang salah atau menyesatkan.\n\n7. Edukasi diri Anda tentang undang-undang dan peraturan yang mengatur konten online serta konsekuensi hukum dari penyebaran konten ilegal."
+            ]
+        },          
+        {
+            "tag": "retas_jaringan",
+            "patterns": [
+            "Peretasan jaringan itu apa?",
+            "Peretasan jaringan itu apa sih",
+            "Emang peretasan jaringan itu apa sih?",
+            "Peretasan jaringan emang apa?",
+            "Peretasan jaringan emang apa sih?",
+            "Apa itu peretasan jaringan?"
+            ],
+            "responses": [
+            "Peretasan jaringan merupakan kejahatan seperti mendapatkan akses tanpa izin ke jaringan komputer atau sistem untuk mencuri data, menghancurkan informasi, atau memanfaatkannya untuk tujuan ilegal."
+            ]
+        },
+        {
+            "tag": "network_hacking_prevention",
+            "patterns": [
+              "Bagaimana cara melindungi diri dari peretasan jaringan?",
+              "Bagaimana terhindar dari serangan peretasan jaringan?",
+              "Apa yang bisa dilakukan untuk mencegah peretasan jaringan?"
+            ],
+            "responses": [
+              "Untuk melindungi diri dari peretasan jaringan, berikut adalah beberapa langkah yang dapat Anda lakukan:\n\n1. Pastikan perangkat dan perangkat lunak Anda terbaru dengan menginstal pembaruan keamanan yang dirilis oleh produsen. Pembaruan ini sering mengatasi celah keamanan yang dapat dimanfaatkan oleh peretas.\n\n2. Gunakan firewall yang andal untuk melindungi jaringan Anda. Firewall berfungsi sebagai penghalang antara jaringan internal Anda dan internet, memfilter lalu lintas data yang masuk dan keluar.\n\n3. Gunakan kata sandi yang kuat dan unik untuk perangkat Anda, serta ganti kata sandi secara berkala. Hindari menggunakan kata sandi yang mudah ditebak atau terkait dengan informasi pribadi.\n\n4. Aktifkan otentikasi dua faktor (2FA) di akun-akun online Anda yang mendukung fitur ini. 2FA menambahkan lapisan keamanan tambahan dengan memerlukan verifikasi kedua, seperti kode yang dikirimkan ke perangkat seluler Anda.\n\n5. Hati-hati dalam membuka lampiran atau mengklik tautan yang tidak diketahui, terutama yang dikirim melalui email atau pesan instan. Lampiran atau tautan tersebut dapat mengandung malware atau skrip jahat yang dapat digunakan untuk meretas jaringan Anda.\n\n6. Jangan mengakses atau berbagi informasi sensitif melalui jaringan Wi-Fi publik yang tidak aman. Gunakan koneksi VPN (Virtual Private Network) yang terenkripsi saat mengakses internet melalui jaringan Wi-Fi publik.\n\n7. Pertimbangkan untuk menggunakan alat keamanan tambahan, seperti program antivirus dan antispyware, untuk mendeteksi dan mencegah ancaman jaringan yang mungkin muncul.\n\n8. Edukasi diri sendiri tentang teknik peretasan jaringan yang umum digunakan, seperti serangan phishing, serangan brute force, atau serangan denial-of-service (DoS), sehingga Anda dapat lebih waspada dan mengambil langkah-langkah pencegahan yang tepat."
+            ]
+        },          
+        {
+            "tag": "keuangan_online",
+            "patterns": [
+            "Kejahatan keuangan online itu apa?",
+            "Kejahatan keuangan online itu apa sih",
+            "Emang kejahatan keuangan online itu apa sih?",
+            "Kejahatan keuangan online emang apa?",
+            "Kejahatan keuangan online emang apa sih?",
+            "Apa itu kejahatan keuangan online?"
+            ],
+            "responses": [
+            "Kejahatan keuangan online merupakan kejahatan yang melakukan penipuan finansial melalui transaksi online, seperti pencurian identitas, penipuan kartu kredit, atau pencurian rekening bank."
+            ]
+        },
+        {
+            "tag": "online_financial_fraud_prevention",
+            "patterns": [
+              "Bagaimana cara melindungi diri dari penipuan keuangan online?",
+              "Bagaimana terhindar dari penipuan keuangan online?",
+              "Apa yang bisa dilakukan untuk mencegah penipuan keuangan online?"
+            ],
+            "responses": [
+              "Untuk melindungi diri dari penipuan keuangan online, berikut adalah beberapa langkah yang dapat Anda lakukan:\n\n1. Jaga kerahasiaan informasi keuangan Anda. Hindari membagikan rincian kartu kredit, nomor rekening bank, atau informasi keuangan pribadi lainnya kepada pihak yang tidak terpercaya.\n\n2. Gunakan situs web atau platform yang aman dan terpercaya saat melakukan transaksi keuangan online. Pastikan situs web memiliki protokol keamanan yang kuat, seperti penggunaan HTTPS dan ikon gembok yang menunjukkan koneksi aman.\n\n3. Periksa dan perbarui secara teratur perangkat lunak keamanan pada perangkat Anda, seperti antivirus, firewall, dan perangkat lunak anti-malware. Pastikan pembaruan keamanan terbaru telah diinstal untuk melindungi perangkat dari ancaman online.\n\n4. Hati-hati dengan email atau pesan yang meminta informasi keuangan pribadi atau mengarahkan Anda ke situs web yang mencurigakan. Jangan klik tautan atau lampiran dari pengirim yang tidak dikenal atau mencurigakan.\n\n5. Gunakan kata sandi yang kuat dan unik untuk akun-akun online Anda yang berhubungan dengan keuangan. Hindari menggunakan kata sandi yang mudah ditebak atau terkait dengan informasi pribadi.\n\n6. Aktifkan pemberitahuan dan peringatan keuangan dari bank atau lembaga keuangan Anda. Dengan demikian, Anda akan segera mendapatkan informasi tentang aktivitas yang mencurigakan atau tidak sah pada akun Anda.\n\n7. Periksa dan monitor secara rutin laporan transaksi dan aktivitas keuangan Anda. Jika ada transaksi yang mencurigakan atau tidak dikenali, laporkan segera kepada bank atau lembaga keuangan Anda.\n\n8. Edukasi diri sendiri tentang metode penipuan keuangan online yang umum, seperti phishing, skimming, atau malware keuangan, sehingga Anda dapat mengenali tanda-tanda dan menghindari jebakan yang mungkin ada."
+            ]
+        },          
+        {
+            "tag": "siber_anak",
+            "patterns": [
+            "Kejahatan siber anak itu apa?",
+            "Kejahatan siber anak itu apa sih",
+            "Emang kejahatan siber anak itu apa sih?",
+            "Kejahatan siber anak emang apa?",
+            "Kejahatan siber anak emang apa sih?",
+            "Apa itu kejahatan siber anak?"
+            ],
+            "responses": [
+            "Kejahatan siber anak merupakan kejahatan yang melibatkan penyalahgunaan anak melalui internet, seperti grooming, eksploitasi seksual, atau penyebaran pornografi anak."
+            ]
+        },
+        {
+            "tag": "kejahatan_siber_anak_prevention",
+            "patterns": [
+              "Bagaimana cara melindungi anak dari kejahatan siber anak?",
+              "Bagaimana mencegah kejahatan siber anak?",
+              "Apa yang bisa dilakukan untuk menghindari kejahatan siber anak?"
+            ],
+            "responses": [
+              "Untuk melindungi anak dari kejahatan siber, berikut adalah beberapa langkah yang dapat diambil:\n\n1. Berkomunikasi secara terbuka dengan anak Anda tentang pentingnya keamanan siber dan memberikan pemahaman tentang risiko dan dampak negatif dari kejahatan siber seperti cyberbullying.\n\n2. Monitor aktivitas online anak Anda dengan melihat riwayat browsing, menggunakan pengaturan privasi yang sesuai, atau menggunakan perangkat lunak pemantauan yang dapat membantu mengidentifikasi potensi ancaman.\n\n3. Ajarkan anak Anda tentang etika online dan bagaimana berperilaku dengan baik di dunia digital. Jelaskan pentingnya menghormati privasi, tidak menyebarkan konten berbahaya, dan tidak menyakiti orang lain secara verbal atau emosional.\n\n4. Dorong anak Anda untuk tidak memberikan informasi pribadi kepada orang yang tidak dikenal dan untuk selalu berhati-hati saat berinteraksi dengan orang lain secara online.\n\n5. Aktifkan pengaturan keamanan dan privasi pada perangkat dan platform yang digunakan oleh anak Anda. Atur pembatasan konten, filter, atau pengaturan keamanan lainnya yang sesuai untuk melindungi anak dari konten berbahaya atau penipuan online.\n\n6. Ajarkan anak Anda cara melaporkan kejahatan siber dan memberikan dukungan dalam menghadapi situasi yang tidak aman. Berikan tahu mereka tentang prosedur pelaporan yang ada dan siapa yang harus dihubungi dalam kasus kejahatan siber.\n\n7. Tetap terhubung dengan anak Anda dan jadilah sumber dukungan yang dapat diandalkan jika mereka mengalami kejahatan siber. Dukung mereka secara emosional dan bantu mereka menghadapi masalah yang mungkin muncul.\n\n8. Edukasi diri sendiri tentang kejahatan siber anak yang umum, seperti cyberbullying, grooming, atau penipuan online, sehingga Anda dapat lebih memahami dan mengambil langkah-langkah yang diperlukan untuk melindungi anak Anda."
+            ]
+        },
+        {
+            "tag": "kejahatan_seks",
+            "patterns": [
+            "Kejahatan seksual online itu apa?",
+            "Kejahatan seksual online itu apa sih",
+            "Emang kejahatan seksual online itu apa sih?",
+            "Kejahatan seksual online emang apa?",
+            "Kejahatan seksual online emang apa sih?",
+            "Apa itu kejahatan seksual online?"
+            ],
+            "responses": [
+            "Kejahatan seksual online merupakan kejahatan yang melibatkan kegiatan ilegal seperti pornografi anak, perdagangan manusia, atau pemerasan seksual melalui internet."
+            ]
+        },
+        {
+            "tag": "online_sexual_crime_prevention",
+            "patterns": [
+              "Bagaimana cara melindungi diri dari kejahatan seksual online?",
+              "Bagaimana terhindar dari kejahatan seksual online?",
+              "Apa yang harus dilakukan untuk mencegah kejahatan seksual online?"
+            ],
+            "responses": [
+              "Untuk melindungi diri dari kejahatan seksual online, berikut adalah beberapa langkah yang dapat diambil:\n\n1. Jagalah privasi dan batasi informasi pribadi yang Anda berikan secara online. Hindari membagikan informasi sensitif atau pribadi kepada orang yang tidak dikenal atau di platform yang tidak terpercaya.\n\n2. Gunakan pengaturan privasi pada media sosial dan platform lainnya untuk mengendalikan siapa yang dapat melihat atau mengakses informasi Anda. Periksa dan sesuaikan pengaturan privasi secara berkala.\n\n3. Jangan menerima permintaan pertemanan dari orang yang tidak Anda kenal secara pribadi. Berhati-hatilah dalam menerima permintaan pertemanan atau mengikuti orang yang tidak dapat Anda verifikasi identitasnya.\n\n4. Waspadai tanda-tanda pemerasan atau penipuan online. Jangan pernah mengirim foto atau video intim kepada orang yang tidak Anda percayai sepenuhnya. Jika Anda menjadi korban pemerasan online, segera laporkan ke pihak berwenang.\n\n5. Belajarlah mengenali teknik grooming, di mana pelaku mencoba membangun kepercayaan dengan sasaran mereka, terutama anak-anak, untuk tujuan kejahatan seksual. Ajarkan anak-anak tentang grooming dan bagaimana mengidentifikasi dan melaporkannya.\n\n6. Gunakan perangkat lunak keamanan dan anti-malware yang terpercaya dan perbarui secara teratur. Ini akan membantu melindungi Anda dari serangan phishing dan malware yang dapat dimanfaatkan untuk kejahatan seksual online.\n\n7. Segera laporkan kejahatan seksual online kepada pihak berwenang yang berkompeten di negara Anda. Laporan Anda dapat membantu menghentikan pelaku dan melindungi orang lain dari tindakan serupa.\n\n8. Edukasi diri sendiri tentang risiko dan bentuk kejahatan seksual online agar Anda dapat mengenali situasi yang berpotensi berbahaya dan mengambil langkah-langkah yang tepat untuk melindungi diri Anda dan orang-orang terdekat."
+            ]
+        },          
+        {
+            "tag": "teroris_online",
+            "patterns": [
+            "Kejahatan teroris online itu apa?",
+            "Kejahatan teroris online itu apa sih",
+            "Emang kejahatan teroris online itu apa sih?",
+            "Kejahatan teroris online emang apa?",
+            "Kejahatan teroris online emang apa sih?",
+            "Apa itu kejahatan teroris online?"
+            ],
+            "responses": [
+            "Kejahatan teroris online merupakan kejahatan yang menggunakan internet untuk menyebarkan propaganda, merekrut anggota, atau merencanakan dan melancarkan serangan terorisme."
+            ]
+        },
+        {
+            "tag": "online_terrorism_prevention",
+            "patterns": [
+              "Bagaimana cara melindungi diri dari kejahatan teroris online?",
+              "Bagaimana terhindar dari kejahatan teroris online?",
+              "Apa yang harus dilakukan untuk mencegah kejahatan teroris online?"
+            ],
+            "responses": [
+              "Untuk melindungi diri dari kejahatan teroris online, berikut adalah beberapa langkah yang dapat diambil:\n\n1. Jagalah privasi dan batasi informasi pribadi yang Anda berikan secara online. Hindari membagikan informasi sensitif atau pribadi kepada orang yang tidak dikenal atau di platform yang tidak terpercaya.\n\n2. Berhati-hatilah dalam mengakses dan berinteraksi dengan konten online. Hindari mengonsumsi atau menyebarkan materi propaganda atau ideologi teroris.\n\n3. Jika Anda menemukan konten yang mencurigakan atau berkaitan dengan kegiatan teroris, segera laporkan ke pihak berwenang atau platform yang relevan.\n\n4. Edukasi diri sendiri tentang tanda-tanda dan karakteristik kejahatan teroris online. Dengan memahami bagaimana kejahatan teroris beroperasi di dunia maya, Anda dapat lebih waspada dan menghindari terjebak dalam lingkaran mereka.\n\n5. Gunakan perangkat lunak keamanan yang terpercaya dan perbarui secara teratur. Ini akan membantu melindungi Anda dari serangan phishing, malware, atau aktivitas online yang mencurigakan.\n\n6. Jangan terlibat dalam diskusi atau kelompok online yang mencurigakan atau memiliki afiliasi dengan kelompok teroris. Jika Anda mendapatkan undangan atau ajakan yang mencurigakan, segera laporkan hal tersebut.\n\n7. Bekerja sama dengan pihak berwenang dan platform online untuk membantu mencegah dan mengidentifikasi kegiatan teroris. Laporan Anda dapat berkontribusi dalam upaya memerangi kejahatan teroris online."
+            ]
+        },          
+        {
+            "tag": "phishing",
+            "patterns": [
+            "Phishing itu apa?",
+            "Phishing itu apa sih",
+            "Emang phishing itu apa sih",
+            "Phishing emang apa?",
+            "Phishing emang apa sih?",
+            "Apa itu phishing?"
+            ],
+            "responses": [
+            "Phishing merupakan teknik untuk memancing seseorang agar memasukkan informasi sensitif seperti username, password, dan lain-lain yang bersifat rahasia pada suatu formulir atau halaman login palsu yang kemudian dimanfaatkan untuk mendapat keuntungan dengan cara mencuri data pribadi. Situs phising merupakan sebuah website yang didesain oleh penjahat internet sedemikian rupanya agar menyerupai situs otentik (tampilan, konten, URL domain atau lainnya) untuk mengelabui korbannya (pengguna internet) dengan membuat korban seolah-olah sedang mengakses halaman situs dari sumber yang sah",
+            "Phishing merupakan salah satu serangan yang menggunakan teknik dengan mengirimkan email, pesan teks, atau situs web palsu yang meniru entitas tepercaya untuk memperoleh informasi sensitif, seperti kata sandi atau rincian keuangan."
+            ]
+        },
+        {
+            "tag": "ciri_phishing",
+            "patterns": [
+            "Bagaimana kita mengetahui phishing?",
+            "Apa saja ciri-ciri phishing?",
+            "Tolong sebutkan ciri-ciri phishing"
+            ],
+            "responses": [
+            "Berikut adalah ciri-ciri yang paling umum dari phishing:\n\n(1) Biasanya memalui pesan atau email phishing sering kali mencoba meniru identitas entitas tepercaya, seperti bank, perusahaan, lembaga pemerintah, atau platform online populer.\n\n(2) Pesan phishing seringkali meminta informasi pribadi yang bersifat sensitif seperti nomor kartu kredit, kata sandi, nomor rekening bank, atau data identitas lainnya. Mereka sering menggunakan alasan palsu, seperti pembaruan akun atau masalah keamanan, untuk memancing Anda memberikan informasi tersebut.\n\n(3) Pesan phishing mungkin mencoba menciptakan tekanan atau ancaman seperti mengancam bahwa akun Anda akan diblokir, pembayaran tertunda, atau layanan akan dihentikan jika Anda tidak segera menanggapi pesan tersebut.\n\n(4) Pesan phishing seringkali mengandung tautan (link/url) atau lampiran yang mencurigakan dengan mengarahkan Anda ke situs web palsu yang mirip dengan situs asli, padahal mungkin berisi file jahat yang dapat merusak sistem Anda.\n\n(5) Pesan phishing seringkali mencoba mengelabui Anda dengan penawaran atau kesempatan menguntungkan yang melibatkan transaksi keuangan.\n\n(6) Pesan phishing seringkali meminta Anda untuk mengungkapkan informasi rahasia, seperti kata sandi atau kode verifikasi."
+            ]
+        },
+        {
+            "tag": "phishing_prevented",
+            "patterns": [
+            "Bagaimana cara melindungi diri dari serangan phishing?",
+            "Bagaimana terhindar dari serangan phishing?",
+            "Bagaimana mencegah serangan phishing?"
+            ],
+            "responses": [
+            "Serangan phishing dapat dicegah dengan tidak mengklik tautan yang mencurigakan atau mengunduh lampiran dari pengirim yang tidak dikenal, mengaktifkan otentikasi dua faktor, dan menjaga perangkat lunak Anda tetap terbaru."
+            ]
+        },
+        {
+            "tag": "phishing_case",
+            "patterns": [
+            "Saya menerima email yang meminta informasi pribadi saya. Apa yang harus saya lakukan?",
+            "Jika saya merima email yang minta informasi pribadi saya, apa yang harus saya lakukan?",
+            "Bagaimana jika ada yang meminta informasi pribadi saya melalui pesan atau email?"
+            ],
+            "responses": [
+            "Jangan merespons email atau pesan tersebut dan jangan memberikan informasi pribadi apa pun. Laporkan email tersebut sebagai spam dan hapus."
+            ]
+        },
+        {
+            "tag": "malware",
+            "patterns": [
+            "Malware itu apa?",
+            "Malware itu apa sih",
+            "Emang malware itu apa sih",
+            "Malware emang apa?",
+            "Malware emang apa sih?",
+            "Apa itu malware?"
+            ],
+            "responses": [
+            "Malware merupakan salah satu serangan yang menggunakan teknik dengan melakukan penyebaran virus, worm, trojan, ransomware, atau perangkat lunak jahat lainnya untuk merusak sistem komputer, mencuri data, atau memeras uang tebusan.",
+            "Serangan malware merupakan kejahatan yang melibatkan penggunaan perangkat lunak jahat seperti virus, worm, trojan, atau ransomware untuk merusak sistem komputer, mencuri data, atau menghentikan operasi normal dari sistem tersebut"
+            ]
+        },
+        {
+            "tag": "ciri_malware",
+            "patterns": [
+            "Bagaimana kita mengetahui serangan malware?",
+            "Apa saja ciri-ciri malware?",
+            "Tolong sebutkan ciri-ciri malware"
+            ],
+            "responses": [
+            "Berikut adalah ciri-ciri yang paling umum dari kejahatan malware:\n\n(1) Penurunan kinerja sistem seperti tingkat kecepatan, kegagalam program, dan sistem yang tidak reponsif.\n\n(2) Perubahan pengaturan sistem seperti pengaturan browser, homepage, atau halaman pencarian default atau penambahan toolbar yang tidak dikenal.\n\n(3) Muncul pop-up iklan yang tidak diinginkan atau mengarahkan Anda ke halaman web yang tidak relevan atau berbahaya.\n\n(4) Ketidakstabilan Perangkat seperti sering mengalami kegagalan, sering restart, atau mengalami kerusakan sistem yang tidak dapat dijelaskan.\n\n(5) Penurunan Keamanan seperti firewall atau program keamanan yang mungkin dimatikan tanpa persetujuan Anda.\n\n(6) Hilangnya data atau file terenkripsi.\n\n(7) aktivitas jaringan yang tidak biasa, seperti mengirim data tanpa izin Anda, mengunduh atau mengunggah file tanpa sepengetahuan Anda, atau berkomunikasi dengan server yang mencurigakan.\n\n(8) perubahan pada latar belakang desktop atau menjalannya proses-proses yang tidak biasa di Task Manager.\n\n(9) Penurunan kapasitas penyimpanan.\n\n(10) Muncul pesan atau peringatan palsu yang mencoba memanipulasi Anda agar melakukan tindakan tertentu, seperti menginstal program atau memberikan informasi pribadi."
+            ]
+        },
+        {
+            "tag": "malware_prevented",
+            "patterns": [
+            "Bagaimana cara melindungi diri dari serangan malware?",
+            "Bagaimana terhindar dari serangan malware?",
+            "Bagaimana mencegah serangan malware?"
+            ],
+            "responses": [
+            "Serangan malware dapat dicegah dengan selalu memperbarui softwaare, menggunakan perangkat lunak anti-malware, dan berhati-hati saat membuka lapiran email atau mngunduh file dari internet.",
+            "Untuk melindungi diri dari malware, Anda harus menjaga perangkat lunak Anda tetap terbaru, menggunakan perangkat lunak anti-malware, dan berhati-hati saat membuka lampiran email atau mengunduh file dari internet."
+            ]
+        },
+        {
+            "tag": "ddos",
+            "patterns": [
+            "Distributed Denial-of-Service (DDoS) itu apa?",
+            "Distributed Denial-of-Service (DDoS) itu apa sih",
+            "Emang Distributed Denial-of-Service (DDoS) itu apa sih",
+            "Distributed Denial-of-Service (DDoS) emang apa?",
+            "Distributed Denial-of-Service (DDoS) emang apa sih?",
+            "Apa itu Distributed Denial-of-Service (DDoS)?"
+            ],
+            "responses": [
+            "Distributed Denial-of-Service (DDoS) merupakan salah satu serangan yang bertujuan untuk menghancurkan layanan online dengan membanjiri server dengan lalu lintas yang berlebihan, sehingga membuat situs web atau jaringan menjadi tidak tersedia untuk pengguna yang sah.", 
+            "Serangan Distributed Denial-of-Service (DDoS) melakukan serangan yang bertujuan untuk mengganggu atau meniadakan layanan di sebuah jaringan atau situs web dengan membanjiri lalu lintas yang tidak normal."
+            ]
+        },
+        {
+            "tag": "ddos_prevented",
+            "patterns": [
+            "Bagaimana cara melindungi diri dari serangan Distributed Denial-of-Service (DDoS)?",
+            "Bagaimana terhindar dari serangan Distributed Denial-of-Service (DDoS)?",
+            "Bagaimana mencegah serangan Distributed Denial-of-Service (DDoS)?"
+            ],
+            "responses": [
+            "Serangan ransomeware dapat dicegah dengan menggunakan perangkat lunak firewall atau layanan keamanan yang mengidentifikasi dan memblokir lalu lintas yang tidak sah.",
+            "Untuk mengatasi serangan tersebut, Anda dapat menggunakan perangkat lunak firewall atau layanan keamanan yang mengidentifikasi dan memblokir lalu lintas yang tidak sah."
+            ]
+        },
+        {
+            "tag": "ciri_ddos",
+            "patterns": [
+            "Bagaimana kita mengetahui kejahatan Distributed Denial-of-Service (DDoS)?",
+            "Apa saja ciri-ciri Distributed Denial-of-Service (DDoS)?",
+            "Tolong sebutkan ciri-ciri Distributed Denial-of-Service (DDoS)"
+            ],
+            "responses": [
+            "Berikut adalah beberapa ciri-ciri umum dari serangan DDoS (Distributed Denial-of-Service):\n\n(1) Situs web atau layanan online yang menjadi target mungkin menjadi lambat atau tidak dapat diakses.\n\n(2)  Lonjakan lalu lintas dan aktivitas jaringan yang tidak biasa.\n\n(3) Penurunan kecepatan akses ke situs web atau layanan.\n\n(4) Server menghabiskan banyak sumber daya untuk menangani permintaan palsu yang datang dari serangan.\n\n(5)  Gangguan pada layanan terkait seperti server DNS yang terhubung dengan target.\n\n(6) Menggunakan IP palsu atau pemalsuan IP untuk menyembunyikan identitas penyerang."
+            ]
+        },
+        {
+            "tag": "ransomware",
+            "patterns": [
+            "Ransomware itu apa?",
+            "Ransomware itu apa sih",
+            "Emang ransomware itu apa sih",
+            "Ransomware emang apa?",
+            "Ransomware emang apa sih?",
+            "Apa itu ransomware?"
+            ],
+            "responses": [
+            "Ransomware merupakan salah satu serangan yang menggunakan teknik mengenkripsi data atau file pada komputer korban dan menuntut pembayaran uang tebusan agar data tersebut dapat dikembalikan."
+            ]
+        },
+        {
+            "tag": "ransomware_prevented",
+            "patterns": [
+            "Bagaimana cara melindungi diri dari serangan ransomware?",
+            "Bagaimana terhindar dari serangan ransomware?",
+            "Bagaimana mencegah serangan ransomware?"
+            ],
+            "responses": [
+            "Serangan ransomeware dapat dicegah dengan selalu memperbarui softwaare, menggunakan perangkat lunak anti-malware, dan melakukan pencadangan (backup) secara teratur.",
+            "Untuk melindungi diri dari ransomware, Anda harus menjaga perangkat lunak Anda tetap terbaru, menggunakan perangkat lunak anti-malware, dan berhati-hati saat membuka lampiran email atau mengunduh file dari internet."
+            ]
+        },
+        {
+            "tag": "ciri_ransomware",
+            "patterns": [
+            "Bagaimana kita mengetahui kejahatan ransomware?",
+            "Apa saja ciri-ciri ransomware?",
+            "Tolong sebutkan ciri-ciri ransomware"
+            ],
+            "responses": [
+            "Berikut adalah ciri-ciri yang paling umum dari kejahatan rasomeware:\n\n(1) mengenkripsi file Anda dengan menggunakan algoritma enkripsi yang kuat kemudian Anda tidak dapat mengakses atau membuka file tersebut kecuali jika membayar tebusan.\n\n(2) Muncul pesan pemberitahuan yang bahwa file Anda telah dikunci.\n\n(3) meminta tebusan dalam bentuk mata uang digital seperti Bitcoin atau Ethereum.\n\n(4) Ancaman menghapus data Anda secara permanen jika tebusan tidak dibayarkan.\n\n(5) Ransomware dapat mengambil alih tampilan desktop dengan jendela penuh yang menampilkan pesan tebusan.\n\n(6) Ransomware menyebar dengan cepat melalui jaringan atau melalui email phishing.\n\n(7) Sulit untuk dideteksi atau dihentikan sebelum melakukan kerusakan yang signifikan."
+            ]
+        },
+        {
+            "tag": "jaringan_wifi",
+            "patterns": [
+            "Bagaimana cara memastikan keamanan jaringan WiFi rumah?",
+            "Bagaimana mencegah serangan pada WiFi rumah?"
+            ],
+            "responses": [
+            "Untuk memastikan keamanan jaringan WiFi rumah, Anda harus menggunakan enkripsi yang kuat seperti WPA2 atau WPA3, mengubah nama jaringan dan kata sandi default, membatasi akses ke jaringan dengan MAC filtering, dan memperbarui firmware router secara teratur.",
+            "Serangan pada WiFi rumah dapat dicegah dengan menggunakan enkripsi yang kuat seperti WPA2 atau WPA3, mengubah nama jaringan dan kata sandi default, membatasi akses ke jaringan dengan MAC filtering, dan memperbarui firmware router secara teratur."
+            ]
+        },
+        {
+            "tag": "safe_online_activities",
+            "patterns": [
+              "Bagaimana cara beraktivitas di dunia maya dengan aman?",
+              "Bagaimana cara menjaga keamanan saat berinteraksi secara online?",
+              "Apa tips untuk beraktivitas di dunia maya dengan aman?",
+              "tolong berikan tips untuk beraktivitas di dunia maya dengan aman?"
+            ],
+            "responses": [
+              "Berikut adalah beberapa tips untuk beraktivitas di dunia maya dengan aman:\n\n1. Gunakan kata sandi yang kuat dan unik untuk akun-akun online Anda. Hindari menggunakan kata sandi yang mudah ditebak atau terlalu umum.\n\n2. Selalu perbarui perangkat lunak dan aplikasi yang digunakan. Pastikan sistem operasi, peramban web, dan aplikasi lainnya selalu diperbarui dengan versi terbaru untuk mendapatkan keamanan terkini.\n\n3. Hati-hati dengan tautan yang mencurigakan atau tidak dikenal. Hindari mengklik tautan yang tidak Anda kenal atau yang tampak mencurigakan. Verifikasi tautan tersebut terlebih dahulu sebelum mengkliknya.\n\n4. Jangan bagikan informasi pribadi secara sembarangan. Hindari memberikan informasi pribadi seperti nomor telepon, alamat, atau informasi keuangan kepada orang yang tidak Anda kenal atau di platform yang tidak terpercaya.\n\n5. Gunakan jaringan Wi-Fi yang aman. Hindari mengakses informasi sensitif atau melakukan transaksi keuangan melalui jaringan Wi-Fi publik yang tidak terenkripsi. Gunakan jaringan pribadi atau jaringan yang telah terjamin keamanannya.\n\n6. Kenali tanda-tanda serangan phishing dan penipuan online. Pelajari cara mengidentifikasi email atau pesan yang mencurigakan, serta cara menghindari penipuan online seperti iming-iming hadiah atau skema investasi yang tidak masuk akal.\n\n7. Perhatikan privasi Anda di media sosial. Tetaplah waspada dengan pengaturan privasi di akun media sosial Anda. Batasi informasi pribadi yang Anda bagikan dan atur siapa saja yang dapat melihat informasi tersebut.\n\n8. Gunakan solusi keamanan yang terpercaya. Instal dan perbarui perangkat lunak keamanan seperti antivirus dan firewall pada perangkat Anda untuk melindungi dari ancaman malware dan serangan cyber.\n\n9. Berpikir dua kali sebelum membagikan atau menyebarkan konten online. Pastikan konten yang Anda bagikan tidak melanggar privasi orang lain atau melibatkan kegiatan ilegal.\n\n10. Tetap waspada dan perhatikan perubahan tren kejahatan siber. Teruslah memperbarui pengetahuan Anda tentang praktik keamanan terbaru dan informasi tentang ancaman keamanan yang baru muncul di dunia maya."
+            ]
+        }          
+    ]
+}

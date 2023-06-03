@@ -1,0 +1,11 @@
+link phishing:
+1. yeniik.com.tr/wp-admin/js/login.alibaba.com/login.jsp.php
+2. fazan-pacir.rs/temp/libraries/ipad
+3. tubemoviez.exe
+4. svision-online.de/mgfi/administrator/components/com_babackup/classes/fx29id1.txt
+
+link legitimate:
+1. youtube.com/
+2. www.kaggle.com/code/ashishkumarbehera/phishing-site-prediction
+3. retailhellunderground.com/
+4. restorevisioncenters.com/html/technology.html

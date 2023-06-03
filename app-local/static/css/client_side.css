@@ -1,0 +1,162 @@
+/* Poppins Bold */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/static/fonts/Poppins-Bold.ttf) format("truetype");
+}
+
+/* Poppins Regular */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/static/fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+/* Poppins Light */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url(/static/fonts/Poppins-Light.ttf) format("truetype");
+}
+
+/* Poppins Thin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  src: url(/static/fonts/Poppins-Thin.ttf) format("truetype");
+}
+
+/* @font-face {
+  font-family: "Glyphicons Halflings";
+  src: url("/fonts/glyphicons-halflings-regular.eot"), url("/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("/fonts/glyphicons-halflings-regular.woff") format("woff"),
+    url("/fonts/glyphicons-halflings-regular.ttf") format("truetype");
+} */
+
+:root {
+  --primary: rgb(249, 245, 246, 0.8);
+  --secondary: #4e6e81;
+  --bg: #393e46;
+  --font: #1f1e1e;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--font);
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 0;
+  background-color: var(--primary);
+  z-index: 9999;
+  justify-content: space-between;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navbar .navbar-brand span {
+  color: var(--secondary);
+}
+
+.navbar li a {
+  color: #232020 !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #b2b2b2 !important;
+}
+
+h2 {
+  font-size: 24px;
+  color: var(--secondary);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 1.375em;
+  color: var(--secondary);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: var(--secondary);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.centered {
+  text-align: center;
+  color: #fff;
+}
+
+#detection {
+  background-color: rgba(7, 7, 6, 1);
+  color: #fff;
+}
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--font);
+}
+
+footer {
+  background-color: var(--primary);
+}
+
+.slideanim {
+  visibility: hidden;
+}
+
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
